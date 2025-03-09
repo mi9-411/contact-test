@@ -1,0 +1,92 @@
+.header{
+    border-bottom: 2px solid #E8E7E6;
+}
+
+.header__inner{
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-align: center;
+    max-width: 1230px;
+}
+
+.header__logo{
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Noticia Text", serif;
+    margin-right: 35%;
+}
+
+.header-utilities{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login__button-submit{
+    background-color: #F6F6F6;
+    border: 1px solid #D9C6B5;
+    color: #D9C6B5;
+    width: 70px;
+    font-size: 15px;
+}
+
+main{
+    background-color: #F1ECE7;
+    width: 100vw;
+    height: 100vh;
+}
+
+.register-form__content{
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.register-form__heading{
+    margin-bottom: 40px;
+    text-align: center;
+    color: #8B7969;
+    font-family: "Noticia Text", serif;
+}
+
+.form{
+    margin: 0 auto;
+    padding: 70px 70px;
+    height: 470px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #C4B9B0;
+    border-radius: 5px;
+}
+
+.form__group-title{
+    text-align: left;
+    color: #8B7969;
+    margin-bottom: 10px;
+}
+
+.form__input--text input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    font-family: "Cormorant Upright", serif;
+}
+
+::placeholder{
+    color: #BEB1A6;
+}
+
+.form__button-submit{
+    padding: 5px 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: #8B7969;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
